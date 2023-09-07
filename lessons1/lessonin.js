@@ -181,9 +181,9 @@ console.log(fullName)
 
 // console.log(`${firstName} is my name and my surname is ${lastName}`)
 
-let challenge = '30 days of javscript'
+// let challenge = '30 days of javscript'
 
-console.log(challenge.toUpperCase())
+// console.log(challenge.toUpperCase())
 
 
 
