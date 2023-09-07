@@ -55,6 +55,13 @@ function getMilk(money) {
 
 }
 getMilk(5)
+function getMilk(money) {
+    var bottles = money * 1.5 ;
+    console.log('buy ' + bottles + ' bottles of milk')
+
+
+}
+getMilk(5)
 
 function getMilk(money) {
     var bottles = money / 1.5 
