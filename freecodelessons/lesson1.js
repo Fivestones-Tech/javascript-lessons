@@ -101,7 +101,7 @@ function getMilk(money) {
    }
   
   console.log('checking new line of code')
-  console.log(' hello master here is your change ' + getMilk(4))
+  console.log(' hello master here is your ' + getMilk(4) + ' change ')
   
 
 
