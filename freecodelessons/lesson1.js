@@ -75,6 +75,35 @@ function getMilk(money) {
 }
 getMilk(5)
 
+function getMilk(money) {
+    console.log('starting new code')
+    // var bottles = Math.floor(money / 1.5)
+    // console.log('buy ' + bottles + ' bottles of milk')
+    console.log('next line of code')
+    console.log('buy ' + calcBottles(money, 1.5) + ' bottles from another function')
+    console.log('next line of code 2')
+    console.log('remaining change is ' + calcChange(money, 1.5))
+    console.log('next line of code 3')
+   // return calcBottles(money, 1.5)
+     console.log('next line of code 4')
+    return calcChange(money, 1.5)
+  }
+  
+  
+  function calcBottles (startingMoney, costPerBottle) {
+      var numberOfBottles = Math.floor(startingMoney / costPerBottle);
+      return numberOfBottles;
+  };
+  
+   function calcChange (startingMoney, costPerBottle) {
+         var calcRemain = startingMoney % costPerBottle;
+     return calcRemain;
+   }
+  
+  console.log('checking new line of code')
+  console.log(' hello master here is your change ' + getMilk(4))
+  
+
 
 
 
